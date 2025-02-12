@@ -60,7 +60,7 @@ jobs:
     - name: Delete temp files
       run: exit 0
     - name: List files
-      run: cd .gradle && ls -al
+      run: ls -alR
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4
       with:
